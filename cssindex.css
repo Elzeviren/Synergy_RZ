@@ -1,0 +1,177 @@
+.body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    width: 2000px;
+    background-color: green;
+}
+
+.item {
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: yellow;
+}
+
+.km {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 250%;
+    color: green;
+    font-weight: 500;
+    align-items: left;
+    justify-content: space-evenly;
+}
+
+.greenrun {
+    width: 2000px;
+    height: 300px;
+    background-size: 2000px 300px;
+    background-image: url(./greengrass2.webp);
+    background-repeat: no-repeat;
+}
+
+.community {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    color: rgb(19, 104, 19);
+    font-size: 70px;
+    padding: 20px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.people {
+    width: 2000px;
+    height: 1200px;
+    background-size: 2000px 1200px;
+    background-image: url(./Lone_runner.jpg);
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+.join {
+    display: flex;
+    margin: 0 auto;
+    background-color: yellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.thanks {
+    color: green;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Notebook*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        width: 600px
+    }
+
+    .community {
+        font-size: 35px
+    }
+
+    .people {
+        background-size: 600px 300px;
+        width: 600px;
+        height: 300px
+    }
+
+    .thanks {
+        display: block;
+        margin-top: 50px;
+        font-size: 30px
+    }
+
+    .km {
+        font-size: 20px;
+        color: blue
+    }
+
+    .greenrun {
+        width: 600px
+    }
+
+    .join {
+        font-size: 30px;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width: 480px) and (max-width: 787px) {
+    .header {
+        width: 600px
+    }
+
+    .community {
+        font-size: 35px
+    }
+
+    .people {
+        background-size: 600px 300px;
+        width: 600px;
+        height: 300px
+    }
+
+    .thanks {
+        display: block;
+        margin-top: 50px;
+        font-size: 30px
+    }
+
+    .km {
+        font-size: 20px;
+        color: black
+    }
+
+    .greenrun {
+        width: 600px
+    }
+
+    .join {
+        font-size: 30px;
+    }
+}
+
+/*Phone*/
+@media screen and (max-width: 480px) {
+    .header {
+        width: 450px
+    }
+
+    .community {
+        font-size: 35px
+    }
+
+    .greenrun {
+        width: 450px;
+    }
+
+    .thanks {
+        display: block;
+        margin-top: 5px;
+        font-size: 15px
+    }
+
+    .km {
+        font-size: 15px;
+        font-size: 20px;
+        color: violet;
+    }
+
+    .people {
+        background-size: 450px 250px;
+        height: 250px;
+        width: 450px
+    }
+
+    .join {
+        font-size: 15px;
+    }
+}
